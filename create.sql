@@ -2,9 +2,9 @@ CREATE DATABASE IF NOT EXISTS `store`;
 
 USE `store`;
 
-DROP TABLE IF EXISTS `orders`;
 DROP TABLE IF EXISTS `customers`;
 DROP TABLE IF EXISTS `products`;
+DROP TABLE IF EXISTS `orders`;
 DROP TABLE IF EXISTS `order_lines`;
 
 CREATE TABLE `customers` (
